@@ -20,13 +20,21 @@
     margin-top: 10px;
   }
 
-  td{
-      background-color: aliceblue;
-      padding-right: 10px;
-      text-align: left;
-  }
+  td {
+    padding: 10px;
+    background-color: aliceblue;
+    padding-right: 10px;
+    text-align: left;
+    vertical-align: middle;
+    max-width: 300px;
+    word-wrap: break-word;
+}
 
-  .to-do{
-      background: transparent !important;
-  }
- 
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+}
